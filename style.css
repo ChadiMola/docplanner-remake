@@ -132,8 +132,8 @@ h1 {
   height: 345px;
   margin: 10px;
   display: grid;
-  grid-template-rows: 30px 40px 120px 50px 40px;
-  align-items:start;
+  grid-template-rows: 30px 40px 120px 40px 40px;
+  align-items:center;
 }
 .c1 {
   background: #00ccb1;
@@ -157,4 +157,51 @@ h1 {
   cursor: pointer;
   color: #fff;
   font-size:19px;
+}
+.third-section{
+display: flex;
+align-items: center;
+}
+
+  
+.barnds-list{
+  list-style: none;
+}
+
+.barnds-list li{
+  display: inline-block;
+  font-size: 1rem;
+}
+.col a path {
+  transition: all .2s ease 0s;
+  fill: hsla(0,0%,67%,.7);
+}
+::selection {
+  background: #00b39b;
+  color: #fff;
+  text-shadow: none;
+}
+.flex{
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+.colum{
+  flex-direction: column;
+}
+.start{
+    background: #e5faf8;
+    background-image: linear-gradient(-45deg,rgba(0,204,177,.01) 5%,rgba(61,199,223,.1));
+    padding: 1.875em 0 0.625em;
+    overflow: hidden;
+    margin: 3.125rem auto 5.5rem;
+}
+.item{
+  background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 5%);
+    height: 250px;
+    text-align: center;
+    padding: 15px;
+    font-size: .8125em;
 }
