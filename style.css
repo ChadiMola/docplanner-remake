@@ -48,7 +48,7 @@
 }
 .dropdown-content {
   display: none;
-  padding: 10px 0 0 0 ;
+  padding: 10px 0 0 0;
   position: absolute;
   min-width: 220px;
   margin-left: -100px;
@@ -66,11 +66,10 @@
   color: #00b39b !important;
 }
 
-
 .dropdown :hover ~ .dropdown-content {
   display: flex;
   flex-direction: column;
-  margin-left:70px;
+  margin-left: 70px;
 }
 .green {
   color: #00b39b !important;
@@ -178,7 +177,7 @@ h1 {
 .third-section {
   display: flex;
   align-items: center;
-    margin: 2.5rem auto 3.125rem;
+  margin: 2.5rem auto 3.125rem;
 }
 .h1 {
   float: left;
@@ -219,15 +218,14 @@ h1 {
 }
 .co li {
   display: inline-block;
-  padding: 0px 12px ;
+  padding: 0px 12px;
 }
 
 .lst1 {
-  
-  padding-right: 12px ;
+  padding-right: 12px;
 }
-.lst{
-padding-left: 12px;
+.lst {
+  padding-left: 12px;
 }
 ::selection {
   background: #00b39b;
@@ -263,6 +261,18 @@ padding-left: 12px;
   padding: 15px;
   font-size: 0.8125em;
   width: 220px;
+  margin: 10px;
+}
+#pstat {
+  line-height: 0.95;
+}
+.stats__item p {
+  font-size: 13px;
+}
+.stats__item h3 {
+  font-size: 1.8461538462em;
+  color: #00b39b;
+  margin: 0.5em 0;
 }
 .offices__header {
   max-width: 460px;
@@ -311,22 +321,24 @@ padding-left: 12px;
   text-transform: uppercase;
   transition: all 0.2s ease 0s;
 }
-.margin{
+.margin {
   margin: 50px 0 88px;
 }
 .join {
   margin-top: 80px;
   margin-bottom: 80px;
 }
-.space{
+.space {
   justify-content: space-between;
 }
-.pad{
+.pad {
   margin-top: 20px;
+  align-items: center;
+  justify-content: center;
 }
 .stats__header {
   margin-top: 2em;
-  width:42%;
+  width: 42%;
 }
 .join-header {
   text-align: center;
